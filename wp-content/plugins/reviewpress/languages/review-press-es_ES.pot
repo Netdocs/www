@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ReviewPress\n"
+"POT-Creation-Date: 2016-03-28 11:36+0500\n"
+"PO-Revision-Date: 2016-03-28 11:36+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: include/api/class.settings-api.php:349
+msgid "Choose File"
+msgstr "Elegir Archivo"
+
+#: include/class-all-review.php:41
+msgid "Comments"
+msgstr "Comentarios"
+
+#: include/class-all-review.php:42
+msgid "Page/Post Title"
+msgstr "Mostrar títol de pàgina/Publicació."
+
+#: include/class-all-review.php:43 include/class-setting.php:137
+msgid "Rating"
+msgstr "Calificación"
+
+#: include/class-all-review.php:44
+msgid "Status"
+msgstr "Estado"
+
+#: include/class-all-review.php:45
+msgid "Author Email"
+msgstr "Email del Autor"
+
+#: include/class-all-review.php:46 include/class-setting.php:138
+msgid "Date"
+msgstr "Fecha"
+
+#: include/class-all-review.php:194 include/class-all-review.php:197
+msgid "Review updated."
+msgstr "Revisión actualizada."
+
+#: include/class-all-review.php:195
+msgid "Review field updated."
+msgstr "Campo de revisión actualizado."
+
+#: include/class-all-review.php:196
+msgid "Review field deleted."
+msgstr "Revisar campo eliminado."
+
+#: include/class-all-review.php:199
+#, php-format
+msgid "Review restored to revision from %s"
+msgstr "Restaurado a la revisión desde %s"
+
+#: include/class-all-review.php:200
+msgid "Review published."
+msgstr "Informe publicado."
+
+#: include/class-all-review.php:201
+msgid "Review saved."
+msgstr "Informe guardado."
+
+#: include/class-all-review.php:202
+msgid "Review submitted."
+msgstr "Campo de revisión actualizado."
+
+#: include/class-all-review.php:204
+#, php-format
+msgid "Review scheduled for: <strong>%1$s</strong>."
+msgstr "Revisión prevista para: <strong>%1$s</strong>."
+
+#: include/class-all-review.php:205
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: include/class-all-review.php:207
+msgid "Review draft updated."
+msgstr "Campo de revisión actualizado."
+
+#: include/class-setting.php:45
+msgid "Display Settings"
+msgstr "Weergave instellingen"
+
+#: include/class-setting.php:49
+msgid "Reviews Settings"
+msgstr "Ajustes de revisión"
+
+#: include/class-setting.php:53
+msgid "Review Form Settings"
+msgstr "Ajustes de Análisis"
+
+#: include/class-setting.php:57 include/class-setting.php:270
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: include/class-setting.php:76
+msgid "Review Authorization"
+msgstr "Campo de revisión actualizado."
+
+#: include/class-setting.php:77 include/class-setting.php:91
+msgid "Select user who can give review"
+msgstr "Seleccione el usuario que puede dar informe"
+
+#: include/class-setting.php:80
+msgid "All Users"
+msgstr "Todos los usuarios"
+
+#: include/class-setting.php:81
+msgid "Just Login Users"
+msgstr "Sólo los usuarios de inicio de sesión"
+
+#: include/class-setting.php:88
+msgid "Select Users"
+msgstr "Seleccionar usuarios"
+
+#: include/class-setting.php:95
+msgid "Review Form Under"
+msgstr "Campo de revisión actualizado."
+
+#: include/class-setting.php:96
+msgid "Enable Review Form under following post "
+msgstr "Permitir formulario de revisión en el siguiente post"
+
+#: include/class-setting.php:102
+msgid "Rating Icon"
+msgstr "Calificación"
+
+#: include/class-setting.php:103
+msgid "Select icon for rating"
+msgstr "Calificación"
+
+#: include/class-setting.php:106
+msgid "Star"
+msgstr "Estrella"
+
+#: include/class-setting.php:107
+msgid "Heart"
+msgstr "Corazón"
+
+#: include/class-setting.php:113
+msgid "Rating Icon Color"
+msgstr "Clasificación Icono Color"
+
+#: include/class-setting.php:114
+msgid "Select Color for Rating Icos"
+msgstr "Seleccione Color para valorar Icos"
+
+#: include/class-setting.php:122
+msgid "Auto Approve Reviews"
+msgstr "Evaluaciones"
+
+#: include/class-setting.php:123
+msgid "Select Yes to Automatically Approve Reviews"
+msgstr "Seleccione Sí para aprobar automáticamente comentarios"
+
+#: include/class-setting.php:127 include/class-setting.php:181
+msgid "Yes"
+msgstr "Sí"
+
+#: include/class-setting.php:128 include/class-setting.php:182
+msgid "No"
+msgstr "No"
+
+#: include/class-setting.php:134
+msgid "Sort Reviews By"
+msgstr "Ordenar reseñas por:"
+
+#: include/class-setting.php:143
+msgid "Number of Reviews"
+msgstr "Número de Revisiones"
+
+#: include/class-setting.php:144
+msgid "Select Number of Reviews you want to show"
+msgstr "Seleccione el número de comentarios que desea mostrar"
+
+#: include/class-setting.php:153
+msgid "Add Google Captcha"
+msgstr "Añadir Google Captcha"
+
+#: include/class-setting.php:154
+msgid "To prevent Spamming"
+msgstr "Para evitar el Spamming"
+
+#: include/class-setting.php:159
+msgid "Site Key"
+msgstr "Clave del sitio:"
+
+#: include/class-setting.php:160
+msgid "Enter Google Captcha Site Key"
+msgstr "Introduzca Google Captcha sitio clave"
+
+#: include/class-setting.php:168
+msgid "Secret key"
+msgstr "Clave secreta"
+
+#: include/class-setting.php:169
+msgid "Enter Google Captcha Secret Key"
+msgstr "Ingrese clave secreta Google Captcha"
+
+#: include/class-setting.php:177
+msgid "Add Google Rich Snippets"
+msgstr "Añadir Google Rich Snippets"
+
+#: include/class-setting.php:187
+msgid "Name Field"
+msgstr "Campo de Nombre"
+
+#: include/class-setting.php:195 include/class-setting.php:214
+#: include/class-setting.php:232 include/class-setting.php:257
+msgid "Require"
+msgstr "Requerir"
+
+#: include/class-setting.php:200 include/class-setting.php:219
+#: include/class-setting.php:237 include/class-setting.php:262
+msgid "Display"
+msgstr "Mostrar"
+
+#: include/class-setting.php:207
+msgid "Email Field"
+msgstr "Campo Correo"
+
+#: include/class-setting.php:225
+msgid "Title Field"
+msgstr "Título del campo"
+
+#: include/class-setting.php:243
+msgid "Rating Field"
+msgstr "Nombre campo valoración"
+
+#: include/class-setting.php:250
+msgid "Review Comment"
+msgstr "Campo de revisión actualizado."
+
+#: include/class-setting.php:289 include/class-setting.php:304
+msgid "Save Settings"
+msgstr "Guardar configuración"
+
+#: include/class-setting.php:311
+msgid "Spread the Word"
+msgstr "Dígaselo a un amigo"
+
+#: include/class-setting.php:313
+msgid "Share on Twitter"
+msgstr "Compartir en Twitter"
+
+#: include/class-setting.php:314
+msgid "Share on Facebook"
+msgstr "Compartir en Facebook"
+
+#: include/class-setting.php:315
+msgid "Rate on Wordpress.org"
+msgstr "Precio en la Wordpress.org"
+
+#: include/class-setting.php:316
+msgid "Subscribe to our Feeds"
+msgstr "Suscripción a Fuentes"
+
+#: reviewpress.php:82
+msgid "ReviewPress"
+msgstr "ReviewPress"
+
+#: reviewpress.php:84 reviewpress.php:194
+msgid "New Review"
+msgstr "Nuevo Comentario"
+
+#: reviewpress.php:85
+msgid "Setting"
+msgstr "Ajuste"
+
+#: reviewpress.php:86
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: reviewpress.php:188
+msgctxt "post type general name"
+msgid "Reviews"
+msgstr "Comentarios"
+
+#: reviewpress.php:189
+msgctxt "post type singular name"
+msgid "Review"
+msgstr "Valorar"
+
+#: reviewpress.php:190
+msgctxt "admin menu"
+msgid "Reviews"
+msgstr "Comentarios"
+
+#: reviewpress.php:191
+msgctxt "add new on admin bar"
+msgid "Review"
+msgstr "Valorar"
+
+#: reviewpress.php:192
+msgctxt "review"
+msgid "Add New"
+msgstr "Añadir"
+
+#: reviewpress.php:193
+msgid "Add New Review"
+msgstr "Añadir Nueva reseña"
+
+#: reviewpress.php:195
+msgid "Edit Review"
+msgstr "Editar reseña"
+
+#: reviewpress.php:196
+msgid "View Review"
+msgstr "Ver reseña"
+
+#: reviewpress.php:197
+msgid "All Reviews"
+msgstr "Todas"
+
+#: reviewpress.php:198
+msgid "Search Reviews"
+msgstr "Buscar Reseña"
+
+#: reviewpress.php:199
+msgid "Parent Reviews:"
+msgstr "Evaluaciones de nivel superior:"
+
+#: reviewpress.php:200
+msgid "No reviews found."
+msgstr "No hay revisiones encontradas."
+
+#: reviewpress.php:201
+msgid "No reviews found in Trash."
+msgstr "No se han encontrado Evaluaciones en Trash."
+
+#~ msgid "Post to Twitter"
+#~ msgstr "Enviar a Twitter"
+
+#~ msgid "Post to Twitter Now"
+#~ msgstr "Enviar a Twitter Ahora"

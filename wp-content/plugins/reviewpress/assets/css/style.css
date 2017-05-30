@@ -1,0 +1,305 @@
+@font-face {
+   font-family: 'reviewpress';
+   src:    url('../fonts/reviewpress-logo.eot?9nquy9');
+   src:    url('../fonts/reviewpress-logo.eot?9nquy9#iefix') format('embedded-opentype'),
+   url('../fonts/reviewpress-logo.ttf?9nquy9') format('truetype'),
+   url('../fonts/reviewpress-logo.woff?9nquy9') format('woff'),
+   url('../fonts/reviewpress-logo.svg?9nquy9#reviewpress') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'reviewpress' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hover_starheart .path1:before {
+    content: "\e902";
+}
+.icon-hover_starheart .path2:before {
+    content: "\e903";
+    margin-left: -1.0380859375em;
+}
+.icon-normle_starheart:before {
+    content: "\e900";
+}
+.icon-staricon:before {
+    content: "\e901";
+}
+#review-setting .nav-tab-wrapper li a {
+  float: none;
+  margin:0;
+  padding: 7px 20px;
+  display: block;
+  height: auto;
+  background: none;
+}
+#review-setting .nav-tab-wrapper li{
+  margin-bottom: 0;
+  margin-left: -1px;
+}
+#review-setting::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+#review-setting{
+  display: table;
+  width: calc(100% - 2px);
+  border:1px solid #ccc;
+  margin: 0;
+}
+.wpbr-tabsWrapper{
+  width: calc(100% - 250px);
+  float: left;
+}
+#review-setting .nav-tab-wrapper{
+  display: table-cell;
+  vertical-align: top;
+  width: 202px;
+}
+.form-table th:first-child{
+   width: 110px;
+}
+#wpbody-content #review-setting .metabox-holder{
+  display: table-cell;
+  padding: 10px;
+  background: #fff;
+}
+#review-setting .nav-tab-wrapper li:first-child{
+  margin-top: -1px;
+}
+#review-setting .nav-tab-wrapper li a.nav-tab-active{
+  background: #fff;
+}
+#review-setting .nav-tab-wrapper li a.nav-tab-active{
+  border-right: transparent;
+}
+#review-setting .nav-tab-wrapper li:last-child a{
+  border-bottom: 1px solid #ccc;
+}
+#the-list .approve{
+  display: block;
+}
+.postbox{
+  padding: 10px;
+}
+#wpbody-content .wpbr-sidebar{
+  width: 235px;
+  float: right;
+  min-width: inherit;
+  box-sizing: border-box;
+}
+.wpbr-sidebar .postbox{
+  min-width: inherit;
+  width: auto;
+}
+.wpbr-sidebar ul li a{
+  width: 100%;
+  display: block;
+}
+.wpbr-sidebar .wp-core-ui .button{
+  position: relative;
+}
+.wpbr-sidebar .dashicons{
+  position: absolute;
+  right: 10px;
+  margin-top: 3px;
+}
+.postbox ul li a{
+   position: relative;
+}
+#mc-embedded-subscribe-form .button{
+  width: 100%;
+}
+.wpbr-button-container{
+  padding: 10px 0;
+  overflow: hidden;
+}
+.wpbr-social-links a{
+  text-decoration: none;
+}
+.wpbr-button-container{
+  padding: 10px;
+  overflow: hidden;
+  border:1px solid #ccc;
+
+}
+.wpbr-button-container.top{
+  border-bottom: 0;
+}
+.wpbr-button-container.bottom{
+  border-top: 0;
+}
+.wpbrmedia-settings-submit{
+  float:right;
+}
+.wpbr-sidebar h2{
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.wpbr-sidebar ul li .twitter .dashicons {
+    color: #45b0e3;
+}
+.wpbr-sidebar ul li .facebook .dashicons {
+    color: #3b5998;
+}
+.wpbr-sidebar ul li .wordpress .dashicons {
+    color: #21759b;
+}
+.wpbr-sidebar ul li .rss .dashicons {
+    color: #FF6600;
+}
+#review-setting p.submit{
+  display: none;
+}
+#wpbr_custom_css .form-table th{
+   width: 0;
+}
+#wpbr_custom_css .form-table td{
+   width: 100%;
+}
+.wpbr-wrap:after{
+   content: '';
+   display: table;
+   clear: both;
+}
+.mc-field-group input[type="email"]{
+   width:100%;
+}
+#wpbody-content .metabox-holder{
+   padding-top: 0 !important;
+   padding-right: 15px !important;
+}
+.mc-field-group input[type="submit"]{
+   margin-top: 5px;
+}
+
+/*ul#adminmenu  .toplevel_page_all_reviews>a{
+   position: relative;
+   padding-left: 36px;
+}*/
+/*.toplevel_page_all_reviews>a>.wp-menu-image{
+   display: none;
+}*/
+/*ul#adminmenu  .toplevel_page_all_reviews>a::before{
+   content: "\e900";
+   font-family: 'reviewpress';
+   position: absolute;
+   left: 11px;
+   top: 7px;
+   font-size: 16px;
+}*/
+.shortcode_page label{
+   font-weight: bolder;
+   font-size: 15px;
+}
+.shortcode_page{
+   padding-top: 25px;
+}
+#wpbr_review_meta_box label{
+   font-size: 15px;
+}
+#wpbr_review_meta_box input{
+   margin-bottom: 10px;
+   margin-top: 5px;
+}
+#wpbr_review_meta_box textarea{
+   margin-bottom: 10px;
+   margin-top: 5px;
+}
+.wpbr-button-container.top{
+   position: relative;
+}
+.setting-notification{
+   position: absolute;
+   width: auto;
+   padding: 16px 10px;
+   left: 0;
+   top: 0;
+   background-color: #fcf8e3;
+   color: #c09853;
+   height: 100%;
+   box-sizing: border-box;
+   display: none;
+}
+#mc_embed_signup .mc-field-group{
+   width: 100% !important;
+}
+#mc_embed_signup .button{
+   width: 100% !important;
+}
+#adminmenu div.wp-menu-image.icon-hover_starheart{
+   line-height: 34px;
+   font-size: 18px;
+}
+#adminmenu a.toplevel_page_all_reviews:hover div.wp-menu-image.icon-hover_starheart .path1{
+   color: #d54e21;
+}
+#the-list .approve{
+   display: inline !important;
+}
+.post-type-cptreviewpress #post-body-content{
+  margin: 0;
+}
+.CodeMirror-wrap pre{
+  white-space: inherit;
+  word-break : break-all;
+}
+.reviewpress.notice a {
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+@media screen and ( max-width:  1100px) {
+   #review-setting .nav-tab-wrapper li a{
+      padding: 5px 10px;
+      font-size: 12px;
+   }
+   #review-setting .nav-tab-wrapper{
+      width: 165px;
+   }
+   .form-table th{
+      font-size: 12px;
+   }
+   #wpbody-content .wpbr-sidebar{
+      width: 210px;
+   }
+   .wpbr-tabsWrapper {
+       width: calc(100% - 225px);
+   }
+}
+@media screen and ( max-width:  1024px) {
+   .wpbr-tabsWrapper{
+      width: 100%;
+      display: block;
+   }
+   #wpbody-content .wpbr-sidebar{
+      display: block;
+      float: left;
+      clear: both;
+      width: 240px;
+      margin-top: 20px;
+   }
+}
+@media screen and ( max-width:  782px) {
+   ul#adminmenu .toplevel_page_all_reviews>a{
+      padding-left: 0;
+   }
+   /*ul#adminmenu .toplevel_page_all_reviews>a::before{
+      top: 11px;
+   }*/
+   .setting-notification{
+      max-width: 65%;
+   }
+}

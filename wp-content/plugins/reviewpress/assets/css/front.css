@@ -1,0 +1,285 @@
+/**
+*  Rating Icons
+*/
+
+@font-face {
+  font-family: 'reviewpress';
+  src:    url('../fonts/reviewpress.eot?9nquy9');
+  src:    url('../fonts/reviewpress.eot?9nquy9#iefix') format('embedded-opentype'),
+  url('../fonts/reviewpress.ttf?9nquy9') format('truetype'),
+  url('../fonts/reviewpress.woff?9nquy9') format('woff'),
+  url('../fonts/reviewpress.svg?9nquy9#reviewpress') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="wpbr-"], [class*=" wpbr-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'reviewpress' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 40px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wpbr-star-off:before {
+  content: "\1f317";
+}
+.wpbr-star-half:before {
+  content: "\1f32f";
+}
+.wpbr-heart-half:before {
+  content: "\1f333";
+}
+.wpbr-heart-on:before {
+  content: "\1f32b";
+}
+.wpbr-heart-off:before {
+  content: "\1f32e";
+}
+.wpbr-star-on:before {
+  content: "\1f32d";
+}
+#wpbr_review_form *{
+  margin: 0;
+}
+#wpbr_review_form input[type="text"], #wpbr_review_form input[type="email"], #wpbr_review_form input[type="number"],  #wpbr_review_form textarea, #wpbr_review_form #starType{
+  margin:0 0 10px;
+}
+.wpbr_review_show{
+  color: #3b3c3e;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 800
+}
+.wpbr_review_show em{
+  color: #3b3c3e;
+  font-size: 14px;
+  line-height: 28px;
+  float: right;
+}
+#review_press_show .wpbr_review_show{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wpbr_review_title,.wpbr_review_message,.wpbr_review_rating,.wpbr_review_email,.wpbr_review_name{
+  font-weight: 600;
+}
+#wpbr_review_form_wrapper .wpbr_review_show{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+#wpbr_review_form input[type="submit"]{
+  padding: 10px 20px;
+  float: none;
+  margin: 0;
+  font-size: 14px;
+  border: none;
+  width: auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #4E4E4E;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 10px;
+}
+#wpbr_review_form .reviewpress-message{
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  padding: 10px 10px 10px 40px;
+  background: #6ac606;
+  color: #fff;
+  visibility: hidden;
+  max-width: 470px;
+  width: 100%;
+  position: relative;
+  clear: both;
+}
+#wpbr_review_form .reviewpress-message:after{
+  content: "\f147";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  font-family: dashicons;
+  font-weight: normal;
+  font-size: 28px;
+
+}
+#wpbr_review_form .reviewpress-message.reviewpress-success{
+  visibility: visible;
+}
+#wpbr_review_form *{
+  box-sizing: border-box;
+}
+#wpbr_review_form input[type="submit"]:hover, #wpbr_review_form input[type="submit"]:active{
+  background: #5F5F5F;
+}
+#wpbr_review_form_wrapper{
+  background: #f7f7f7;
+  padding: 20px 30px;
+}
+#wpbr_review_form_wrapper:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+#wpbr_review_form>div:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+#wpbr_review_form label{
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+  width: 150px;
+  float: left;
+  padding-right: 20px;
+  text-align: right;
+  line-height: 1.1;
+  padding: 13px 10px 13px 0;
+}
+#wpbr_review_form input[type="text"], #wpbr_review_form input[type="email"],  #wpbr_review_form input[type="number"]{
+  width: 100%;
+  display: block;
+  padding: 10px;
+  height: 40px;
+  border-radius: 0;
+  border:1px solid;
+  width: calc(100% - 150px);
+  float: left;
+  max-width: 370px;
+}
+#starType{
+  float: left;
+}
+#wpbr_review_form>div{
+  margin-bottom: 5px;
+}
+#wpbr_review_form textarea{
+  width: calc(100% - 150px);
+  height: 200px;
+  display: block;
+  border-radius: 0;
+  border:1px solid;
+  max-width: 470px;
+}
+#starType, #heartType{
+  font-size: 20px;
+}
+#review_press_show label{
+  font-size: 20px;
+  color: #222;
+  font-weight: normal;
+}
+#review_press_show label:not(.wpbr_review_title,.wpbr_review_message,.wpbr_review_rating,.wpbr_review_email,.wpbr_review_name){
+  color: #555;
+}
+#wpbr_review_form_wrapper .submit_button{
+  float: none;
+  margin-left: 150px;
+}
+#wpbr_review_form .g-recaptcha{
+  margin-left: 150px;
+}
+#wpbr_review_form .spinner-loader{
+  margin-top: 10px;
+}
+#review_press_show{
+  /*background: #f7f7f7;*/
+  padding: 20px 0;
+  margin-top: 20px;
+}
+#review_press_show .review_press_inner span{
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+}
+#review_press_show .review_press_inner .review_press_name{
+  font-weight: bold;
+  float: left;
+}
+#review_press_show .review_press_inner .review_press_title{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  display: inline-block;
+  padding-right: 10px;
+}
+#review_press_show .review_press_inner p{
+  margin: 0;
+  text-indent: 100px;
+  font-size: 16px;
+  clear: both;
+  padding-top: 10px;
+  font-weight: normal;
+}
+#review_press_show .review_press_inner time{
+  display: block;
+  font-size: 14px;
+  float: right;
+}
+#review_press_show .review_press_inner + .review_press_inner{
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+}
+#review_press_show .review_press_inner{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+#review_press_show .reviewpress-rating{
+  display: inline-block;
+}
+#review_press_show .reviewpress-rating i{
+  font-size: 16px;
+  line-height: 18px;
+}
+#review_press_show .review_press_meta{
+  padding-top: 5px;
+}
+#review_press_show .review_press_meta:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+#review_press_show .captcha-error{
+  font-size: 16px;
+  font-weight: normal;
+  width: 100%;
+  float: left;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  #wpbr_review_form label{
+    width: 100%;
+    text-align: left;
+    line-height: 24px;
+    padding: 0;
+  }
+  #wpbr_review_form input[type="text"], #wpbr_review_form input[type="email"], #wpbr_review_form input[type="number"], #wpbr_review_form textarea{
+    width: 100%;
+    max-width: 100%;
+  }
+  #wpbr_review_form .g-recaptcha, #wpbr_review_form_wrapper .submit_button{
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  .g-recaptcha>div{
+    transform: scale(.7);
+    -webkit-transform: scale(.7);
+    transform-origin: left top;
+    -webkit-transform-origin: left top;
+  }
+}

@@ -1,0 +1,148 @@
+#tinymce .arve-play-btn,
+#arve .arve-play-btn,
+#tinymce .arve-play-btn:focus,
+#arve .arve-play-btn:focus,
+#tinymce .arve-play-btn:hover,
+#arve .arve-play-btn:hover {
+ 	background-color: transparent;
+	background-image: none;
+	background-position: center;
+	background-repeat: no-repeat;
+ 	border: none;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+}
+
+#tinymce .arve-play-svg,
+#arve .arve-play-svg {
+	display: inline;
+}
+#tinymce .arve-play-svg-youtube-bg,
+#arve .arve-play-svg-youtube-bg,
+#tinymce .arve-play-svg-circle-bg,
+#arve .arve-play-svg-circle-bg,
+#tinymce .arve-play-svg-circle-fg,
+#arve .arve-play-svg-circle-fg {
+	-webkit-transition: fill .5s cubic-bezier(0.4,0.0,1,1), fill-opacity .5s cubic-bezier(0.4,0.0,1,1);
+	-o-transition: fill .5s cubic-bezier(0.4,0.0,1,1), fill-opacity .5s cubic-bezier(0.4,0.0,1,1);
+	transition: fill .5s cubic-bezier(0.4,0.0,1,1), fill-opacity .5s cubic-bezier(0.4,0.0,1,1);
+	/* fill: #1f1f1f;
+	fill-opacity: .81; */
+}
+
+#tinymce .arve-play-btn:hover .arve-play-svg-youtube-bg,
+#arve .arve-play-btn:hover .arve-play-svg-youtube-bg,
+#tinymce .arve-play-btn:hover .arve-play-svg-circle-fg,
+#arve .arve-play-btn:hover .arve-play-svg-circle-fg {
+	-webkit-transition: fill .5s cubic-bezier(0.0,0.0,0.2,1), fill-opacity .5s cubic-bezier(0.0,0.0,0.2,1);
+	-o-transition: fill .5s cubic-bezier(0.0,0.0,0.2,1), fill-opacity .5s cubic-bezier(0.0,0.0,0.2,1);
+	transition: fill .5s cubic-bezier(0.0,0.0,0.2,1), fill-opacity .5s cubic-bezier(0.0,0.0,0.2,1);
+	fill: #cc181e;
+	fill-opacity: 1;
+}
+
+#tinymce .arve-play-btn:hover .arve-play-svg-circle-fg,
+#arve .arve-play-btn:hover .arve-play-svg-circle-fg {
+	fill: #fff;
+	fill-opacity: 1;
+}
+
+#tinymce .arve-title,
+#arve .arve-title {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 0;
+	padding: 1em;
+	color: #fff;
+	background-image: -webkit-gradient(linear,left bottom, left top,from(rgba(0,0,0,.75)),to(transparent));
+	background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,.75),transparent);
+	background-image: -o-linear-gradient(bottom,rgba(0,0,0,.75),transparent);
+	background-image: linear-gradient(to top,rgba(0,0,0,.75),transparent);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#tinymce .arve-wrapper[data-mode^="lazyload"] .arve-title,
+#arve .arve-wrapper[data-mode^="lazyload"] .arve-title {
+	display: block;
+}
+
+#tinymce .arve-thumbnail,
+#arve .arve-thumbnail {
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+
+#tinymce .arve-wrapper.arve-hover-effect-zoom[data-mode^="lazyload"] .arve-thumbnail,
+#arve .arve-wrapper.arve-hover-effect-zoom[data-mode^="lazyload"] .arve-thumbnail {
+	-webkit-transition-duration: .7s;
+	     -o-transition-duration: .7s;
+	        transition-duration: .7s;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform, -o-transform;
+}
+
+#tinymce .arve-wrapper.arve-hover-effect-zoom[data-mode^="lazyload"]:hover .arve-thumbnail,
+#arve .arve-wrapper.arve-hover-effect-zoom[data-mode^="lazyload"]:hover .arve-thumbnail {
+	-webkit-transform: scale(1.2);
+	     -o-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+
+#tinymce .arve-wrapper.arve-hover-effect-rectangle[data-mode^="lazyload"] .arve-play-btn::before,
+#arve .arve-wrapper.arve-hover-effect-rectangle[data-mode^="lazyload"] .arve-play-btn::before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	border: 2px solid #fff;
+	-webkit-transform: scale(1.5);
+	     -o-transform: scale(1.5);
+	        transform: scale(1.5);
+	-webkit-transition-duration: .7s;
+	     -o-transition-duration: .7s;
+	        transition-duration: .7s;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform, -o-transform;
+}
+
+#tinymce .arve-wrapper.arve-hover-effect-rectangle[data-mode^="lazyload"] .arve-play-btn:hover::before,
+#arve .arve-wrapper.arve-hover-effect-rectangle[data-mode^="lazyload"] .arve-play-btn:hover::before {
+	-webkit-transform: scale(1);
+	     -o-transform: scale(1);
+	        transform: scale(1);
+}
+
+#tinymce .arve-lity-container,
+#arve .arve-lity-container {
+	position: relative;
+	display: block;
+	max-width: 100vw;
+	max-height: 100vh;
+}
+
+#arve .arve-lity-container .arve-video {
+	max-height: 100%;
+}
+
+.arve-lazyload,
+.lity-hide {
+	display: none !important;
+}
+/*# sourceMappingURL=arve-pro.css.map */

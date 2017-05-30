@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cresta Posts Box\n"
+"POT-Creation-Date: 2017-03-23 12:54+0100\n"
+"PO-Revision-Date: 2017-03-23 12:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cresta-posts-box.php:24
+msgid "Cresta Posts Box Settings"
+msgstr ""
+
+#: cresta-posts-box.php:29
+msgid "Settings"
+msgstr ""
+
+#: cresta-posts-box.php:36
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: cresta-posts-box.php:214 cresta-posts-box.php:255
+msgid "CrestaProject"
+msgstr ""
+
+#: cresta-posts-box.php:214 cresta-posts-box.php:255
+msgid "Cresta Posts Box by CP"
+msgstr ""
+
+#: cresta-posts-box.php:297
+msgid "Cresta Posts Box FREE"
+msgstr ""
+
+#: cresta-posts-box.php:297
+msgid "Upgrade to PRO version!"
+msgstr ""
+
+#: cresta-posts-box.php:300
+msgid "Settings Saved..."
+msgstr ""
+
+#: cresta-posts-box.php:316
+msgid "Box Style"
+msgstr ""
+
+#: cresta-posts-box.php:320
+msgid "Box Font Size"
+msgstr ""
+
+#: cresta-posts-box.php:327
+msgid "Box Line Height"
+msgstr ""
+
+#: cresta-posts-box.php:334
+msgid "Box Width"
+msgstr ""
+
+#: cresta-posts-box.php:341
+msgid "Show Box Shadow"
+msgstr ""
+
+#: cresta-posts-box.php:347
+msgid "Box Z-Index"
+msgstr ""
+
+#: cresta-posts-box.php:350
+msgid ""
+"Increase this number if the box is covered by other items on the screen."
+msgstr ""
+
+#: cresta-posts-box.php:354
+msgid "Box Background Color"
+msgstr ""
+
+#: cresta-posts-box.php:356 cresta-posts-box.php:362 cresta-posts-box.php:368
+#: cresta-posts-box.php:374 cresta-posts-box.php:423 cresta-posts-box.php:429
+#: cresta-posts-box.php:443 cresta-posts-box.php:446 cresta-posts-box.php:449
+msgid "PRO Version"
+msgstr ""
+
+#: cresta-posts-box.php:360
+msgid "Text Box Color"
+msgstr ""
+
+#: cresta-posts-box.php:366
+msgid "Link Box Color"
+msgstr ""
+
+#: cresta-posts-box.php:372
+msgid "Box Border Color"
+msgstr ""
+
+#: cresta-posts-box.php:379
+msgid "Box Position"
+msgstr ""
+
+#: cresta-posts-box.php:383
+msgid "Position"
+msgstr ""
+
+#: cresta-posts-box.php:387
+msgid "Left"
+msgstr ""
+
+#: cresta-posts-box.php:390
+msgid "Right"
+msgstr ""
+
+#: cresta-posts-box.php:396
+msgid "Distance from left or right"
+msgstr ""
+
+#: cresta-posts-box.php:403
+msgid "Distance from bottom"
+msgstr ""
+
+#: cresta-posts-box.php:411
+msgid "Box Display"
+msgstr ""
+
+#: cresta-posts-box.php:415
+msgid "Box Title"
+msgstr ""
+
+#: cresta-posts-box.php:421
+msgid "Border Box Width"
+msgstr ""
+
+#: cresta-posts-box.php:427
+msgid "Border Box Radius"
+msgstr ""
+
+#: cresta-posts-box.php:433
+msgid "Show"
+msgstr ""
+
+#: cresta-posts-box.php:437
+msgid "Previous Post"
+msgstr ""
+
+#: cresta-posts-box.php:440
+msgid "Next Post"
+msgstr ""
+
+#: cresta-posts-box.php:443
+msgid "Both Previous and Next Post"
+msgstr ""
+
+#: cresta-posts-box.php:446
+msgid "Random Post"
+msgstr ""
+
+#: cresta-posts-box.php:449
+msgid "Related Post"
+msgstr ""
+
+#: cresta-posts-box.php:449
+msgid ""
+"(Based on tags, works only with Post and Custom Post Type if they have "
+"enabled the use of tags)"
+msgstr ""
+
+#: cresta-posts-box.php:455
+msgid "Show Close Button"
+msgstr ""
+
+#: cresta-posts-box.php:461
+msgid "Show featured image (if available)"
+msgstr ""
+
+#: cresta-posts-box.php:467
+msgid "Featured image width"
+msgstr ""
+
+#: cresta-posts-box.php:474
+msgid "Featured image box height"
+msgstr ""
+
+#: cresta-posts-box.php:481
+msgid "Show Excerpt"
+msgstr ""
+
+#: cresta-posts-box.php:487
+msgid "Number of words to show"
+msgstr ""
+
+#: cresta-posts-box.php:494
+msgid "Show on mobile devices and tablets"
+msgstr ""
+
+#: cresta-posts-box.php:500
+msgid "Show CrestaProject credits :)"
+msgstr ""
+
+#: cresta-posts-box.php:507 cresta-posts-box.php:511
+msgid "Show on"
+msgstr ""
+
+#: cresta-posts-box.php:534
+msgid "Advanced"
+msgstr ""
+
+#: cresta-posts-box.php:538
+msgid "Custom CSS Code"
+msgstr ""
+
+#: cresta-posts-box.php:541
+msgid ""
+"Write here your custom CSS code if you want to customize the style of the box"
+msgstr ""
+
+#: cresta-posts-box.php:558
+msgid "Rate it!"
+msgstr ""
+
+#: cresta-posts-box.php:565
+msgid "Rate Cresta Posts Box on Wordpress Plugins Directory"
+msgstr ""
+
+#: cresta-posts-box.php:565
+msgid "Rate Cresta Posts Box"
+msgstr ""
+
+#: cresta-posts-box.php:571
+msgid "Need More? Get the PRO version"
+msgstr ""
+
+#: cresta-posts-box.php:587
+msgid "More Details"
+msgstr ""
+
+#: cresta-posts-metabox.php:15
+msgid "Cresta Posts Box"
+msgstr ""
+
+#: cresta-posts-metabox.php:30
+msgid "Hide Cresta Posts Box in this page?"
+msgstr ""

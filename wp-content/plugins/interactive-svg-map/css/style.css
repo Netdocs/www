@@ -1,0 +1,105 @@
+/* Setup basic CSS for Label */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit !important;
+}
+
+.jqvmap-pin {
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif !important;
+    cursor: default !important;
+    pointer-events: none !important;       
+}
+
+/* Hide Whichever Labels you want */
+
+#jqvmap1_ri_pin, #jqvmap1_dc_pin, #jqvmap1_de_pin, #jqvmap1_md_pin {
+    display: none !important;
+}
+
+/* Reposition Labels that are not quite right ( labels are centered in shape, and sometimes need tweaking ) */
+
+#jqvmap1_ak_pin {
+    margin-top: -2% !important;
+}
+#jqvmap1_ca_pin {
+    margin-left: -2% !important;
+}
+#jqvmap1_ct_pin {
+    margin-top: -0.25% !important;
+    margin-left: -0.25% !important;
+}
+#jqvmap1_fl_pin {
+    margin-left: 5% !important;
+}
+#jqvmap1_id_pin {
+    margin-top: 3% !important;
+    margin-left: -1% !important;
+}
+#jqvmap1_ky_pin {
+    margin-left: 2% !important;
+}
+#jqvmap1_la_pin {
+    margin-left: -2% !important;
+}
+#jqvmap1_mi_pin {
+    margin-top: 4% !important;
+    margin-left: 3% !important;
+}
+#jqvmap1_ma_pin {
+    margin-top: -0.25% !important;
+}
+#jqvmap1_mn_pin {
+    margin-top: 2% !important;
+    margin-left: -2% !important;
+}
+#jqvmap1_nh_pin {
+    margin-top: 1% !important;
+    margin-left: -0.25% !important;
+}
+#jqvmap1_nj_pin {
+    margin-top: 1% !important;
+}
+#jqvmap1_ok_pin {
+    margin-left: 2% !important;
+}
+#jqvmap1_va_pin {
+    margin-left: 2% !important;
+}
+#jqvmap1_wv_pin {
+    margin-left: -1% !important;
+    margin-top: 1% !important;
+}
+
+/* Add responsibe support to resize labels for difference screen sizes */
+
+@media only screen and (min-width: 320px) {
+    .jqvmap-pin {
+        font-size: 6px;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .jqvmap-pin {
+        font-size: 8px !important;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .jqvmap-pin {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .jqvmap-pin {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .jqvmap-pin {
+        font-size: 14px !important;
+    }
+}

@@ -1,0 +1,7 @@
+<wpml-config>
+	<admin-texts>
+		<key name="crestapostsbox_settings">
+			<key name="cresta_posts_box_title"/>
+		</key>
+	</admin-texts>
+</wpml-config>

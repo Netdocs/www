@@ -1,0 +1,214 @@
+.aphms-wrap {
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+.aphms-form-container {
+	padding: 15px;
+    border: 1px solid #dedede;
+}
+.aphms-form-container h2 {
+	border-bottom: 1px solid #dcdcdc;
+    padding: 0 0 15px 0;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+.aphms-wrap .title{
+    background: #f3f3f3;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 1px solid #dedede;
+    border-top: 5px solid #c7c7c7;
+    border-bottom: 0;
+}
+.aphms-listcache {
+	margin-top: 10px;
+}
+.aphms-listcache a{
+	text-decoration: none;
+}
+.aphms-listcache a:hover{
+    border-bottom: 1px dashed #CCCCCC;
+}
+.aphms-input-container select,
+.aphms-input-container div
+{
+	float:left;
+}
+.aphms-small-input {
+	width: 50px;
+}
+#wp-admin-bar-aphms-admin-bar {
+	cursor: pointer;
+}
+#wp-admin-bar-aphms-admin-bar>div {
+	cursor: pointer !important;
+}
+#aphms-panel {
+	position: absolute;
+    background: #333;
+    top: 30px;
+    right: 0;
+    color: #d8d8d8;
+    z-index: 10000;
+    padding: 20px;
+	font-size: 14px !important;
+	max-width: 400px;
+	display:none;
+}
+#aphms-panel > p {
+	margin-top: 0;
+}
+#aphms-panel label {
+	font-family: monospace;
+}
+.aphms-deps-list {
+	font-size: 14px;
+    margin-left: 30px;
+    color: #969696;
+    font-family: monospace;
+}
+.aphms-clearfix::before,
+.aphms-clearfix::after
+{
+    content: "";
+    display: table;
+	clear: both;
+}
+#aphms-panel h1 {
+    font-weight: 700;
+    font-size: 135%;
+    margin: 0;
+    padding: 0;
+}
+
+.aphms-info,
+.aphms-warning {
+	padding: 10px 15px;
+	border: 1px solid #bfe0f9;
+    background: #eaf6ff;
+    font-size: 14px;
+    color: #475056;
+    margin-top: 10px;
+}
+.aphms-warning {
+    background: #ffeaea;
+	border: 1px solid #f9ccbf;
+}
+
+#aphms-panel ul {
+	list-style: none;
+}
+#aphms-panel a {
+	color: #6b8fd4;
+    font-size: 14px;
+}
+#aphms-form a {
+	color: #6b8fd4;
+    font-size: 13px;
+}
+
+
+#aphms-panel input {
+	float:left;
+}
+#aphms-panel .button {
+    border: 0;
+    text-indent: 0;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 0;
+    padding: 8px 18px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: auto;
+    font-size: 13px;
+    background: #3b76e4;
+    color: #FFFFFF;
+    padding: 5px 15px;
+	float: left;
+}
+#aphms-panel .button:hover {
+	background: #2659b7;
+}
+
+#aphms-panel .button-disabled {
+	background: rgb(136, 136, 136) !important;
+    color: #CCCCCC !important;
+	cursor: default !important;
+}
+
+#aphms-submit-wrapper  .aphms-loader,
+#aphms-submit-wrapper  .aphms-msg {
+	float: left;
+    margin: 0 0 0 10px;
+    display: none;
+    width: 200px;
+    color: #72aadc;
+    font-size: 13px;
+}
+
+.aphms-loader {
+	display: block;
+    width: 32px;
+    height: 32px;
+    background: url('../img/loader.gif') 0 0 no-repeat;
+}
+
+#aphms-notmerged {
+	background: #ff8d00;
+    text-align: center;
+    padding: 1px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+#aphms-adminbar-info {
+	font-size: 13px;
+    display: none;
+    background: #000000;
+    padding: 1px 20px;
+    margin-bottom: 15px;
+}
+#aphms-adminbar-info p {
+	margin-top: 10px !important;
+}
+.aphms-autoloadhandle {
+	color: #e0da8d;
+}
+.aphms-autoloadhandle div{
+	background-color: #c6d268;
+}
+.aphms-notincurrent {
+	color: #ff8484;
+}
+.aphms-notincurrent div {
+	background-color: #ff8484;
+}
+.aphms-notdetected div {
+	background-color: #FFFFFF;
+}
+.aphms-legend {
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+.aphms-legend div {
+	width: 50px;
+    height: 10px;
+    float: left;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.aphms-legend span {
+    display: inline-block;
+    float: left;
+    margin-top: -5px;
+    margin-left: 0;
+    max-width: 300px;
+    width: 80%;
+    line-height: 17px;
+}
