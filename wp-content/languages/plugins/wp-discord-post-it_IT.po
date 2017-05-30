@@ -1,0 +1,82 @@
+# Translation of Plugins - WP Discord Post - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - WP Discord Post - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-20 07:58:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - WP Discord Post - Stable (latest release)\n"
+
+#: wp-discord-post.php:148
+msgid "Mention @everyone when sending the message to Discord."
+msgstr "Menziona @everyone quando viene inviato il messaggio su Discord."
+
+#: wp-discord-post.php:81
+msgid "Mention Everyone"
+msgstr "Menziona Tutti"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-discord-post/"
+msgstr "https://wordpress.org/plugins/wp-discord-post/"
+
+#. Author URI of the plugin/theme
+msgid "https://nicola.blog/"
+msgstr "https://nicola.blog/"
+
+#. Author of the plugin/theme
+msgid "Nicola Mustone"
+msgstr "Nicola Mustone"
+
+#. Description of the plugin/theme
+msgid "A Discord integration that sends a message on your desired Discord server and channel for every new post published."
+msgstr "Un'integrazione per Discord che invia un messaggio nel tuo server e canale preferito su Discord per ogni articolo pubblicato."
+
+#: wp-discord-post.php:178
+msgid "%1$s just published the article %2$s on their blog: %3$s"
+msgstr "%1$s ha appena pubblicato l'articolo %2$s sul suo blog: %3$s"
+
+#: wp-discord-post.php:138
+msgid "The username that you want to use for the bot on your Discord server. %1$sLearn more%2$s"
+msgstr "Il nome utente del bot che vuoi utilizzare sul tuo server Discord. %1$sScopri di più%2$s"
+
+#: wp-discord-post.php:128
+msgid "The token of your Discord bot. %1$sLearn more%2$s"
+msgstr "Il token del tuo bot Discord. %1$sScopri di più%2$s"
+
+#: wp-discord-post.php:118
+msgid "The URL of the avatar that you want to use for the bot on your Discord server."
+msgstr "L'URL dell'avatar del bot che vuoi utilizzare sul tuo server Discord."
+
+#: wp-discord-post.php:108
+msgid "The username that you want to use for the bot on your Discord server."
+msgstr "Il nome utente del bot che vuoi utilizzare sul tuo server Discord."
+
+#: wp-discord-post.php:98
+msgid "Configure your WP Discord Post instance to write on your Discord server"
+msgstr "Configura la tua installazione di WP Discord post per inviare messaggi sul tuo server Discord"
+
+#: wp-discord-post.php:73
+msgid "Discord Webhook URL"
+msgstr "URL del Webhook di Discord"
+
+#: wp-discord-post.php:65
+msgid "Discord Bot Token"
+msgstr "Token del bot di Discord"
+
+#: wp-discord-post.php:57
+msgid "Avatar URL"
+msgstr "URL dell'avatar"
+
+#: wp-discord-post.php:49
+msgid "Bot Username"
+msgstr "Nome utente del bot"
+
+#. #-#-#-#-#  tmp-wp-discord-post.pot (WP Discord Post 1.0.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: wp-discord-post.php:42
+msgid "WP Discord Post"
+msgstr "WP Discord Post"

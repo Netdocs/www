@@ -1,0 +1,516 @@
+0000.001 (0) Opened log file at time: Sat, 06 May 2017 16:47:17 +0000 on http://www.netdocs.tv
+0000.016 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 4.7.4 PHP: 7.0.15 (fpm-fcgi, Linux webm009.cluster023.gra.hosting.ovh.net 3.14.79-grsec-hosting-web-3.14 #1 SMP Thu Oct 20 14:47:42 UTC 2016 x86_64) MySQL: 5.6.34 WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 13.1M | 2M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.023 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.036 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.073 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.106 (0) Set semaphore last lock (fd) time to 2017-05-06 16:47:17
+0000.111 (0) Semaphore lock (fd) complete
+0000.128 (0) Backup run: resumption=0, nonce=8e112ea4f6b5, begun at=1494089237 (0s ago), job type=backup
+0000.139 (0) Scheduling a resumption (1) after 300 seconds (1494089537) in case this run gets aborted
+0000.166 (0) Checking if we have a zip executable available
+0000.170 (0) Testing: /usr/bin/zip
+0000.181 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.189 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.195 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.200 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.209 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.215 (0) Binary zip: error (code: -1)
+0000.238 (0) Creation of backups of directories: beginning
+0000.279 (0) Beginning creation of dump of plugins (split every: 5120 MB)
+0005.893 (0) Total entities for the zip file: 1193 directories, 7610 files (0 skipped as non-modified), 123.9 MB
+0005.902 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.979 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 100 files added (on-disk size: 206.9 KB)
+0006.033 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 200 files added (on-disk size: 206.9 KB)
+0006.073 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 300 files added (on-disk size: 206.9 KB)
+0006.103 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 400 files added (on-disk size: 206.9 KB)
+0006.134 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 500 files added (on-disk size: 206.9 KB)
+0006.140 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.8 MB, 7610 files batched, 501 (502) added so far); re-opening (prior size: 206.9 KB)
+0006.867 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 600 files added (on-disk size: 4578.6 KB)
+0006.900 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 700 files added (on-disk size: 4578.6 KB)
+0006.929 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 800 files added (on-disk size: 4578.6 KB)
+0006.957 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 900 files added (on-disk size: 4578.6 KB)
+0006.987 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1000 files added (on-disk size: 4578.6 KB)
+0006.995 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.6 MB, 7610 files batched, 501 (1003) added so far); re-opening (prior size: 4578.6 KB)
+0007.868 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1100 files added (on-disk size: 6647.2 KB)
+0007.909 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1200 files added (on-disk size: 6647.2 KB)
+0007.944 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1300 files added (on-disk size: 6647.2 KB)
+0007.982 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1400 files added (on-disk size: 6647.2 KB)
+0008.022 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1500 files added (on-disk size: 6647.2 KB)
+0008.029 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.2 MB, 7610 files batched, 501 (1504) added so far); re-opening (prior size: 6647.2 KB)
+0008.960 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1600 files added (on-disk size: 7995.3 KB)
+0008.994 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1700 files added (on-disk size: 7995.3 KB)
+0009.039 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1800 files added (on-disk size: 7995.3 KB)
+0009.068 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 1900 files added (on-disk size: 7995.3 KB)
+0009.097 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2000 files added (on-disk size: 7995.3 KB)
+0009.103 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 7610 files batched, 501 (2005) added so far); re-opening (prior size: 7995.3 KB)
+0009.722 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2100 files added (on-disk size: 9443.5 KB)
+0009.756 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2200 files added (on-disk size: 9443.5 KB)
+0009.790 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2300 files added (on-disk size: 9443.5 KB)
+0009.836 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2400 files added (on-disk size: 9443.5 KB)
+0009.869 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2500 files added (on-disk size: 9443.5 KB)
+0009.889 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.3 MB, 7610 files batched, 501 (2506) added so far); re-opening (prior size: 9443.5 KB)
+0010.807 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2600 files added (on-disk size: 17770.3 KB)
+0010.836 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2700 files added (on-disk size: 17770.3 KB)
+0010.876 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2800 files added (on-disk size: 17770.3 KB)
+0010.904 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 2900 files added (on-disk size: 17770.3 KB)
+0010.934 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3000 files added (on-disk size: 17770.3 KB)
+0010.944 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.2 MB, 7610 files batched, 501 (3007) added so far); re-opening (prior size: 17770.3 KB)
+0011.733 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3100 files added (on-disk size: 20009.6 KB)
+0011.765 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3200 files added (on-disk size: 20009.6 KB)
+0011.796 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3300 files added (on-disk size: 20009.6 KB)
+0011.824 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3400 files added (on-disk size: 20009.6 KB)
+0011.855 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3500 files added (on-disk size: 20009.6 KB)
+0011.862 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 MB, 7610 files batched, 501 (3508) added so far); re-opening (prior size: 20009.6 KB)
+0012.524 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3600 files added (on-disk size: 21323.7 KB)
+0012.552 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3700 files added (on-disk size: 21323.7 KB)
+0012.590 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3800 files added (on-disk size: 21323.7 KB)
+0012.619 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 3900 files added (on-disk size: 21323.7 KB)
+0012.648 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4000 files added (on-disk size: 21323.7 KB)
+0012.671 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.5 MB, 7610 files batched, 501 (4009) added so far); re-opening (prior size: 21323.7 KB)
+0014.154 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4100 files added (on-disk size: 25428.3 KB)
+0014.188 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4200 files added (on-disk size: 25428.3 KB)
+0014.242 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4300 files added (on-disk size: 25428.3 KB)
+0014.274 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4400 files added (on-disk size: 25428.3 KB)
+0014.304 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4500 files added (on-disk size: 25428.3 KB)
+0014.313 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.2 MB, 7610 files batched, 501 (4510) added so far); re-opening (prior size: 25428.3 KB)
+0015.288 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4600 files added (on-disk size: 28012.4 KB)
+0015.329 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4700 files added (on-disk size: 28012.4 KB)
+0015.358 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4800 files added (on-disk size: 28012.4 KB)
+0015.387 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 4900 files added (on-disk size: 28012.4 KB)
+0015.418 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5000 files added (on-disk size: 28012.4 KB)
+0015.438 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.6 MB, 7610 files batched, 501 (5011) added so far); re-opening (prior size: 28012.4 KB)
+0016.525 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5100 files added (on-disk size: 35782.3 KB)
+0016.552 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5200 files added (on-disk size: 35782.3 KB)
+0016.581 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5300 files added (on-disk size: 35782.3 KB)
+0016.607 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5400 files added (on-disk size: 35782.3 KB)
+0016.640 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5500 files added (on-disk size: 35782.3 KB)
+0016.650 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.6 MB, 7610 files batched, 501 (5512) added so far); re-opening (prior size: 35782.3 KB)
+0017.794 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5600 files added (on-disk size: 37874.2 KB)
+0017.830 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5700 files added (on-disk size: 37874.2 KB)
+0017.864 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5800 files added (on-disk size: 37874.2 KB)
+0017.912 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 5900 files added (on-disk size: 37874.2 KB)
+0017.940 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6000 files added (on-disk size: 37874.2 KB)
+0017.961 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 7610 files batched, 501 (6013) added so far); re-opening (prior size: 37874.2 KB)
+0018.851 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6100 files added (on-disk size: 38572.4 KB)
+0018.891 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6200 files added (on-disk size: 38572.4 KB)
+0018.924 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6300 files added (on-disk size: 38572.4 KB)
+0018.954 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6400 files added (on-disk size: 38572.4 KB)
+0018.987 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6500 files added (on-disk size: 38572.4 KB)
+0019.010 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (19.4 MB, 7610 files batched, 501 (6514) added so far); re-opening (prior size: 38572.4 KB)
+0021.435 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6600 files added (on-disk size: 44522.7 KB)
+0021.490 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6700 files added (on-disk size: 44522.7 KB)
+0021.561 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6800 files added (on-disk size: 44522.7 KB)
+0021.624 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 6900 files added (on-disk size: 44522.7 KB)
+0021.683 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 7000 files added (on-disk size: 44522.7 KB)
+0021.703 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3 MB, 7610 files batched, 501 (7015) added so far); re-opening (prior size: 44522.7 KB)
+0022.914 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 7100 files added (on-disk size: 45569.5 KB)
+0022.966 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 7200 files added (on-disk size: 45569.5 KB)
+0023.027 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 7300 files added (on-disk size: 45569.5 KB)
+0023.235 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 7400 files added (on-disk size: 45569.5 KB)
+0023.287 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 7500 files added (on-disk size: 45569.5 KB)
+0023.299 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.2 MB, 7610 files batched, 501 (7516) added so far); re-opening (prior size: 45569.5 KB)
+0024.617 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip.tmp: 7600 files added (on-disk size: 48299.6 KB)
+0026.339 (0) Created plugins zip (0) - 48760.4 KB in 26 s (1872.7 KB/s) (sha1: f25a46599bbfa6e6493a41ee43be25718e9f7661, sha256: b2be8ffbfdb26166a95b961d61cec80db509c77288c397cf91fe4f3e702b58aa)
+0026.359 (0) Beginning creation of dump of themes (split every: 5120 MB)
+0026.673 (0) Total entities for the zip file: 36 directories, 370 files (0 skipped as non-modified), 2.8 MB
+0026.715 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.754 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0026.788 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0026.964 (0) Created themes zip (0) - 1922.2 KB in 0.6 s (3239.8 KB/s) (sha1: 387a86a4ab8377cd2f232c4645d907645e73a257, sha256: cf1e6d0fc4506b2d6bf201fc0bac8f79320fb548d3738e81db89eba446617c7a)
+0026.977 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0026.983 (0) Looking for candidates to back up in: /home/netdocstgu/www/wp-content/uploads
+0026.987 (0) finding files: woocommerce_uploads: adding to list (1)
+0026.994 (0) finding files: 2017: adding to list (2)
+0026.999 (0) finding files: tCapsule: adding to list (3)
+0027.006 (0) finding files: wc-logs: adding to list (4)
+0027.010 (0) Beginning creation of dump of uploads (split every: 5120 MB)
+0027.749 (0) Total entities for the zip file: 8 directories, 1596 files (0 skipped as non-modified), 34.3 MB
+0027.781 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0027.830 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0027.864 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0027.904 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0027.938 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0027.944 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6 MB, 1596 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0028.071 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 600 files added (on-disk size: 6243.9 KB)
+0028.101 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 700 files added (on-disk size: 6243.9 KB)
+0028.151 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 800 files added (on-disk size: 6243.9 KB)
+0028.188 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 900 files added (on-disk size: 6243.9 KB)
+0028.216 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 1000 files added (on-disk size: 6243.9 KB)
+0028.223 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.1 MB, 1596 files batched, 501 (1002) added so far); re-opening (prior size: 6243.9 KB)
+0028.544 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 1100 files added (on-disk size: 12602 KB)
+0028.583 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 1200 files added (on-disk size: 12602 KB)
+0028.619 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 1300 files added (on-disk size: 12602 KB)
+0028.659 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 1400 files added (on-disk size: 12602 KB)
+0028.692 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip.tmp: 1500 files added (on-disk size: 12602 KB)
+0028.725 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14 MB, 1596 files batched, 501 (1503) added so far); re-opening (prior size: 12602 KB)
+0030.376 (0) Created uploads zip (0) - 35349.1 KB in 3.4 s (10521.3 KB/s) (sha1: 7e5844455d06f10890265a3746790c1cd9d44c34, sha256: 43e02b83220cd2dc9e77df7011ad27808ffe89b7adb2f6e1b2704b4bfd86c63e)
+0030.386 (0) Beginning backup of other directories found in the content directory (index: 0)
+0030.390 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0030.395 (0) Looking for candidates to back up in: /home/netdocstgu/www/wp-content
+0030.405 (0) finding files: upgrade: skipping: excluded by options
+0030.410 (0) finding files: cache: skipping: excluded by options
+0030.414 (0) finding files: plugins: skipping: this is the plugins directory
+0030.418 (0) finding files: languages: adding to list (1)
+0030.422 (0) finding files: index.php: adding to list (2)
+0030.426 (0) finding files: uploads: skipping: this is the uploads directory
+0030.430 (0) finding files: updraft: skipping: this is the updraft directory
+0030.434 (0) finding files: fv-flowplayer-custom: adding to list (3)
+0030.441 (0) finding files: themes: skipping: this is the themes directory
+0030.702 (0) Total entities for the zip file: 4 directories, 170 files (0 skipped as non-modified), 27.4 MB
+0030.735 (0) Zip: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.760 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 170 files batched, 159 (159) added so far); re-opening (prior size: 0 KB)
+0033.038 (0) A useful amount of data was added after this amount of zip processing: 3.4 s (normalised: 3.4 s, rate: 7494.3 KB/s)
+0033.060 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.4181599617004, normalised_time=3.4159268860227, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=46045013)
+0033.620 (0) Created others zip (0) - 7740.8 KB in 3.2 s (2440.1 KB/s) (sha1: 84d0638d7127cc21e74db0a0bceb801cfc4f16b7, sha256: dd4c55c4b48520a32c34e0f7cc0fba448898af20f553a71e7de0f8315aeccda5)
+0033.679 (0) Saving backup status to database (elements: 8)
+0033.695 (0) Beginning creation of database dump (WordPress DB)
+0033.719 (0) Testing: /usr/bin/mysqldump
+0033.757 (0) Binary mysqldump: error (code: -1)
+0033.957 (0) Table mod175_options: Total expected rows (approximate): 599
+0033.992 (0) Table mod175_options: Total rows added: 623 in 0.03 seconds
+0033.999 (0) Table mod175_options: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_options.table.gz - 121.7 KB)
+0034.014 (0) Table mod175_users: Total expected rows (approximate): 0
+0034.019 (0) Table mod175_users: Total rows added: 3 in 0.00 seconds
+0034.023 (0) Table mod175_users: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_users.table.gz - 0.8 KB)
+0034.101 (0) Table mod175_usermeta: Total expected rows (approximate): 42
+0034.107 (0) Table mod175_usermeta: Total rows added: 62 in 0.00 seconds
+0034.112 (0) Table mod175_usermeta: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_usermeta.table.gz - 1.9 KB)
+0034.130 (0) Table mod175_commentmeta: Total expected rows (approximate): 0
+0034.135 (0) Table mod175_commentmeta: Total rows added: 0 in 0.00 seconds
+0034.141 (0) Table mod175_commentmeta: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_commentmeta.table.gz - 0.4 KB)
+0034.156 (0) Table mod175_comments: Total expected rows (approximate): 0
+0034.162 (0) Table mod175_comments: Total rows added: 0 in 0.00 seconds
+0034.167 (0) Table mod175_comments: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_comments.table.gz - 0.5 KB)
+0034.183 (0) Table mod175_links: Total expected rows (approximate): 0
+0034.190 (0) Table mod175_links: Total rows added: 0 in 0.00 seconds
+0034.195 (0) Table mod175_links: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_links.table.gz - 0.4 KB)
+0034.209 (0) Table mod175_postmeta: Total expected rows (approximate): 1696
+0034.236 (0) Table mod175_postmeta: Total rows added: 1925 in 0.02 seconds
+0034.241 (0) Table mod175_postmeta: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_postmeta.table.gz - 31.6 KB)
+0034.257 (0) Table mod175_posts: Total expected rows (approximate): 499
+0034.305 (0) Table mod175_posts: Total rows added: 658 in 0.04 seconds
+0034.318 (0) Table mod175_posts: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_posts.table.gz - 119.8 KB)
+0034.333 (0) Table mod175_term_relationships: Total expected rows (approximate): 262
+0034.342 (0) Table mod175_term_relationships: Total rows added: 309 in 0.00 seconds
+0034.348 (0) Table mod175_term_relationships: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_term_relationships.table.gz - 1 KB)
+0034.368 (0) Table mod175_term_taxonomy: Total expected rows (approximate): 52
+0034.382 (0) Table mod175_term_taxonomy: Total rows added: 54 in 0.00 seconds
+0034.407 (0) Table mod175_term_taxonomy: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_term_taxonomy.table.gz - 0.8 KB)
+0034.453 (0) Table mod175_termmeta: Total expected rows (approximate): 0
+0034.459 (0) Table mod175_termmeta: Total rows added: 0 in 0.00 seconds
+0034.466 (0) Table mod175_termmeta: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_termmeta.table.gz - 0.4 KB)
+0034.487 (0) Table mod175_terms: Total expected rows (approximate): 52
+0034.493 (0) Table mod175_terms: Total rows added: 54 in 0.00 seconds
+0034.498 (0) Table mod175_terms: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_terms.table.gz - 1.1 KB)
+0034.512 (0) Table mod175_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0034.517 (0) Table mod175_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0034.523 (0) Table mod175_woocommerce_order_itemmeta: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0034.560 (0) Table mod175_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0034.566 (0) Table mod175_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0034.571 (0) Table mod175_woocommerce_payment_tokenmeta: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0034.589 (0) Table mod175_masklinks: Total expected rows (approximate): 2
+0034.595 (0) Table mod175_masklinks: Total rows added: 3 in 0.00 seconds
+0034.600 (0) Table mod175_masklinks: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_masklinks.table.gz - 0.4 KB)
+0034.628 (0) Table mod175_script_optimizer: Total expected rows (approximate): 0
+0034.636 (0) Table mod175_script_optimizer: Total rows added: 0 in 0.00 seconds
+0034.641 (0) Table mod175_script_optimizer: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_script_optimizer.table.gz - 0.5 KB)
+0034.660 (0) Table mod175_subscriptio_scheduled_events: Total expected rows (approximate): 0
+0034.666 (0) Table mod175_subscriptio_scheduled_events: Total rows added: 0 in 0.00 seconds
+0034.671 (0) Table mod175_subscriptio_scheduled_events: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_subscriptio_scheduled_events.table.gz - 0.4 KB)
+0034.690 (0) Table mod175_woocommerce_api_keys: Total expected rows (approximate): 0
+0034.695 (0) Table mod175_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0034.702 (0) Table mod175_woocommerce_api_keys: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_api_keys.table.gz - 0.4 KB)
+0034.721 (0) Table mod175_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0034.729 (0) Table mod175_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0034.735 (0) Table mod175_woocommerce_attribute_taxonomies: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0034.754 (0) Table mod175_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0034.763 (0) Table mod175_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0034.769 (0) Table mod175_woocommerce_downloadable_product_permissions: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0034.789 (0) Table mod175_woocommerce_log: Total expected rows (approximate): 0
+0034.796 (0) Table mod175_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0034.802 (0) Table mod175_woocommerce_log: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_log.table.gz - 0.4 KB)
+0034.821 (0) Table mod175_woocommerce_order_items: Total expected rows (approximate): 0
+0034.829 (0) Table mod175_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0034.834 (0) Table mod175_woocommerce_order_items: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_order_items.table.gz - 0.4 KB)
+0034.875 (0) Table mod175_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0034.890 (0) Table mod175_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0034.909 (0) Table mod175_woocommerce_payment_tokens: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0034.934 (0) Table mod175_woocommerce_sessions: Total expected rows (approximate): 1
+0034.941 (0) Table mod175_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0034.947 (0) Table mod175_woocommerce_sessions: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_sessions.table.gz - 0.9 KB)
+0034.973 (0) Table mod175_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0034.982 (0) Table mod175_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0034.987 (0) Table mod175_woocommerce_shipping_zone_locations: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0035.011 (0) Table mod175_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0035.017 (0) Table mod175_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0035.025 (0) Table mod175_woocommerce_shipping_zone_methods: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0035.063 (0) Table mod175_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0035.080 (0) Table mod175_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0035.088 (0) Table mod175_woocommerce_shipping_zones: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0035.114 (0) Table mod175_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0035.119 (0) Table mod175_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0035.127 (0) Table mod175_woocommerce_tax_rate_locations: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0035.150 (0) Table mod175_woocommerce_tax_rates: Total expected rows (approximate): 0
+0035.157 (0) Table mod175_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0035.165 (0) Table mod175_woocommerce_tax_rates: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_tax_rates.table.gz - 0.4 KB)
+0035.189 (0) Table mod175_wptc_activity_log: Total expected rows (approximate): 1701
+0035.234 (0) Table mod175_wptc_activity_log: Total rows added: 2361 in 0.04 seconds
+0035.239 (0) Table mod175_wptc_activity_log: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_activity_log.table.gz - 28.3 KB)
+0035.257 (0) Table mod175_wptc_auto_backup_record: Total expected rows (approximate): 0
+0035.264 (0) Table mod175_wptc_auto_backup_record: Total rows added: 0 in 0.00 seconds
+0035.268 (0) Table mod175_wptc_auto_backup_record: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_auto_backup_record.table.gz - 0.5 KB)
+0035.285 (0) Table mod175_wptc_backup_names: Total expected rows (approximate): 0
+0035.291 (0) Table mod175_wptc_backup_names: Total rows added: 29 in 0.00 seconds
+0035.297 (0) Table mod175_wptc_backup_names: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_backup_names.table.gz - 0.7 KB)
+0035.320 (0) Table mod175_wptc_backups: Total expected rows (approximate): 0
+0035.329 (0) Table mod175_wptc_backups: Total rows added: 29 in 0.00 seconds
+0035.337 (0) Table mod175_wptc_backups: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_backups.table.gz - 0.8 KB)
+0035.368 (0) Table mod175_wptc_current_process: Total expected rows (approximate): 0
+0035.375 (0) Table mod175_wptc_current_process: Total rows added: 0 in 0.00 seconds
+0035.381 (0) Table mod175_wptc_current_process: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_current_process.table.gz - 0.4 KB)
+0035.455 (0) Table mod175_wptc_debug_log: Total expected rows (approximate): 516
+0035.472 (0) Table mod175_wptc_debug_log: Total rows added: 537 in 0.01 seconds
+0035.490 (0) Table mod175_wptc_debug_log: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_debug_log.table.gz - 4.6 KB)
+0035.528 (0) Table mod175_wptc_excluded_files: Total expected rows (approximate): 72
+0035.550 (0) Table mod175_wptc_excluded_files: Total rows added: 72 in 0.00 seconds
+0035.558 (0) Table mod175_wptc_excluded_files: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_excluded_files.table.gz - 1.2 KB)
+0035.619 (0) Table mod175_wptc_excluded_tables: Total expected rows (approximate): 0
+0035.627 (0) Table mod175_wptc_excluded_tables: Total rows added: 0 in 0.00 seconds
+0035.634 (0) Table mod175_wptc_excluded_tables: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_excluded_tables.table.gz - 0.3 KB)
+0035.687 (0) Table mod175_wptc_included_files: Total expected rows (approximate): 0
+0035.707 (0) Table mod175_wptc_included_files: Total rows added: 0 in 0.01 seconds
+0035.719 (0) Table mod175_wptc_included_files: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_included_files.table.gz - 0.3 KB)
+0035.767 (0) Table mod175_wptc_included_tables: Total expected rows (approximate): 0
+0035.781 (0) Table mod175_wptc_included_tables: Total rows added: 0 in 0.00 seconds
+0035.793 (0) Table mod175_wptc_included_tables: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_included_tables.table.gz - 0.3 KB)
+0035.822 (0) Table mod175_wptc_options: Total expected rows (approximate): 119
+0035.834 (0) Table mod175_wptc_options: Total rows added: 124 in 0.00 seconds
+0035.854 (0) Table mod175_wptc_options: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_options.table.gz - 3.1 KB)
+0035.879 (0) Table mod175_wptc_processed_dbtables: Total expected rows (approximate): 0
+0035.887 (0) Table mod175_wptc_processed_dbtables: Total rows added: 0 in 0.00 seconds
+0035.894 (0) Table mod175_wptc_processed_dbtables: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_processed_dbtables.table.gz - 0.3 KB)
+0035.914 (0) Table mod175_wptc_processed_files: Total expected rows (approximate): 13643
+0036.414 (0) Table mod175_wptc_processed_files: Total rows added: 14522 in 0.49 seconds
+0036.431 (0) Table mod175_wptc_processed_files: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_processed_files.table.gz - 1167.5 KB)
+0036.468 (0) Table mod175_wptc_processed_restored_files: Total expected rows (approximate): 0
+0036.514 (0) Table mod175_wptc_processed_restored_files: Total rows added: 0 in 0.03 seconds
+0036.530 (0) Table mod175_wptc_processed_restored_files: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_processed_restored_files.table.gz - 0.5 KB)
+0036.561 (0) Table mod175_wsluserscontacts: Total expected rows (approximate): 0
+0036.575 (0) Table mod175_wsluserscontacts: Total rows added: 0 in 0.01 seconds
+0036.582 (0) Table mod175_wsluserscontacts: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wsluserscontacts.table.gz - 0.3 KB)
+0036.610 (0) Table mod175_wslusersprofiles: Total expected rows (approximate): 0
+0036.620 (0) Table mod175_wslusersprofiles: Total rows added: 1 in 0.00 seconds
+0036.628 (0) Table mod175_wslusersprofiles: finishing file (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wslusersprofiles.table.gz - 0.7 KB)
+0036.676 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_options.table.gz (1/45): adding to final database dump
+0036.707 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_users.table.gz (2/45): adding to final database dump
+0036.874 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_usermeta.table.gz (3/45): adding to final database dump
+0036.881 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_commentmeta.table.gz (4/45): adding to final database dump
+0036.886 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_comments.table.gz (5/45): adding to final database dump
+0036.892 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_links.table.gz (6/45): adding to final database dump
+0036.898 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_postmeta.table.gz (7/45): adding to final database dump
+0036.912 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_posts.table.gz (8/45): adding to final database dump
+0036.938 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_term_relationships.table.gz (9/45): adding to final database dump
+0036.948 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_term_taxonomy.table.gz (10/45): adding to final database dump
+0036.954 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_termmeta.table.gz (11/45): adding to final database dump
+0036.960 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_terms.table.gz (12/45): adding to final database dump
+0036.969 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_order_itemmeta.table.gz (13/45): adding to final database dump
+0036.976 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_payment_tokenmeta.table.gz (14/45): adding to final database dump
+0036.989 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_masklinks.table.gz (15/45): adding to final database dump
+0037.027 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_script_optimizer.table.gz (16/45): adding to final database dump
+0037.039 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_subscriptio_scheduled_events.table.gz (17/45): adding to final database dump
+0037.052 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_api_keys.table.gz (18/45): adding to final database dump
+0037.105 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_attribute_taxonomies.table.gz (19/45): adding to final database dump
+0037.111 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_downloadable_product_permissions.table.gz (20/45): adding to final database dump
+0037.117 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_log.table.gz (21/45): adding to final database dump
+0037.124 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_order_items.table.gz (22/45): adding to final database dump
+0037.132 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_payment_tokens.table.gz (23/45): adding to final database dump
+0037.140 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_sessions.table.gz (24/45): adding to final database dump
+0037.146 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_shipping_zone_locations.table.gz (25/45): adding to final database dump
+0037.154 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_shipping_zone_methods.table.gz (26/45): adding to final database dump
+0037.161 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_shipping_zones.table.gz (27/45): adding to final database dump
+0037.167 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_tax_rate_locations.table.gz (28/45): adding to final database dump
+0037.734 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_woocommerce_tax_rates.table.gz (29/45): adding to final database dump
+0038.089 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_activity_log.table.gz (30/45): adding to final database dump
+0038.108 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_auto_backup_record.table.gz (31/45): adding to final database dump
+0038.123 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_backup_names.table.gz (32/45): adding to final database dump
+0038.131 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_backups.table.gz (33/45): adding to final database dump
+0038.146 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_current_process.table.gz (34/45): adding to final database dump
+0038.156 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_debug_log.table.gz (35/45): adding to final database dump
+0038.164 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_excluded_files.table.gz (36/45): adding to final database dump
+0038.175 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_excluded_tables.table.gz (37/45): adding to final database dump
+0038.355 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_included_files.table.gz (38/45): adding to final database dump
+0038.360 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_included_tables.table.gz (39/45): adding to final database dump
+0038.383 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_options.table.gz (40/45): adding to final database dump
+0038.387 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_processed_dbtables.table.gz (41/45): adding to final database dump
+0038.392 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_processed_files.table.gz (42/45): adding to final database dump
+0038.579 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wptc_processed_restored_files.table.gz (43/45): adding to final database dump
+0038.597 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wsluserscontacts.table.gz (44/45): adding to final database dump
+0038.612 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db-table-mod175_wslusersprofiles.table.gz (45/45): adding to final database dump
+0038.672 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db.gz: finished writing out complete database file (1472 KB)
+0038.729 (0) Total database tables backed up: 45 (backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db.gz, size: 1525482, sha256)
+0038.763 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0038.772 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0038.777 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0038.786 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0038.793 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0038.798 (0) Saving backup history. Total backup size: 93 MB
+0038.814 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0038.834 (0) Cloud backup selection (1/1): googledrive (last)
+0038.848 (0) Beginning dispatch of backup to remote (googledrive)
+0038.862 (0) Google Drive: requesting access token: client_id=18613030780-2grtq1b7f0cemr9ep715u0h07s9ckk1g.apps.googleusercontent.com
+0038.969 (0) Google Drive: successfully obtained access token
+0040.078 (0) Google Drive quota usage: used=625.1 MB, total=15360 MB, available=14734.9 MB
+0040.249 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip: Attempting to upload to Google Drive (into folder id: 0Bx_MNTzna_XCVTBLTHJPMGtqOTg)
+0040.699 (0) Googledrive chunked upload: 2.1 % uploaded (1048576)
+0041.183 (0) Googledrive chunked upload: 4.2 % uploaded (2097152)
+0041.452 (0) Googledrive chunked upload: 6.3 % uploaded (3145728)
+0041.708 (0) Googledrive chunked upload: 8.4 % uploaded (4194304)
+0041.897 (0) Googledrive chunked upload: 10.5 % uploaded (5242880)
+0042.105 (0) Googledrive chunked upload: 12.6 % uploaded (6291456)
+0042.271 (0) Googledrive chunked upload: 14.7 % uploaded (7340032)
+0042.687 (0) Googledrive chunked upload: 16.8 % uploaded (8388608)
+0042.870 (0) Googledrive chunked upload: 18.9 % uploaded (9437184)
+0043.083 (0) Googledrive chunked upload: 21 % uploaded (10485760)
+0043.301 (0) Googledrive chunked upload: 23.1 % uploaded (11534336)
+0043.680 (0) Googledrive chunked upload: 25.2 % uploaded (12582912)
+0043.883 (0) Googledrive chunked upload: 27.3 % uploaded (13631488)
+0044.293 (0) Googledrive chunked upload: 29.4 % uploaded (14680064)
+0044.544 (0) Googledrive chunked upload: 31.5 % uploaded (15728640)
+0044.966 (0) Googledrive chunked upload: 33.6 % uploaded (16777216)
+0045.150 (0) Googledrive chunked upload: 35.7 % uploaded (17825792)
+0047.728 (0) Googledrive chunked upload: 37.8 % uploaded (18874368)
+0048.118 (0) Googledrive chunked upload: 39.9 % uploaded (19922944)
+0048.361 (0) Googledrive chunked upload: 42 % uploaded (20971520)
+0048.619 (0) Googledrive chunked upload: 44.1 % uploaded (22020096)
+0048.919 (0) Googledrive chunked upload: 46.2 % uploaded (23068672)
+0049.182 (0) Googledrive chunked upload: 48.3 % uploaded (24117248)
+0049.460 (0) Googledrive chunked upload: 50.4 % uploaded (25165824)
+0049.827 (0) Googledrive chunked upload: 52.5 % uploaded (26214400)
+0050.235 (0) Googledrive chunked upload: 54.6 % uploaded (27262976)
+0050.481 (0) Googledrive chunked upload: 56.7 % uploaded (28311552)
+0050.722 (0) Googledrive chunked upload: 58.8 % uploaded (29360128)
+0050.966 (0) Googledrive chunked upload: 60.9 % uploaded (30408704)
+0051.211 (0) Googledrive chunked upload: 63 % uploaded (31457280)
+0051.420 (0) Googledrive chunked upload: 65.1 % uploaded (32505856)
+0051.629 (0) Googledrive chunked upload: 67.2 % uploaded (33554432)
+0051.858 (0) Googledrive chunked upload: 69.3 % uploaded (34603008)
+0052.645 (0) Googledrive chunked upload: 71.4 % uploaded (35651584)
+0052.912 (0) Googledrive chunked upload: 73.5 % uploaded (36700160)
+0053.793 (0) Googledrive chunked upload: 75.6 % uploaded (37748736)
+0054.027 (0) Googledrive chunked upload: 77.7 % uploaded (38797312)
+0054.305 (0) Googledrive chunked upload: 79.8 % uploaded (39845888)
+0054.515 (0) Googledrive chunked upload: 81.9 % uploaded (40894464)
+0054.758 (0) Googledrive chunked upload: 84 % uploaded (41943040)
+0054.958 (0) Googledrive chunked upload: 86.1 % uploaded (42991616)
+0055.210 (0) Googledrive chunked upload: 88.2 % uploaded (44040192)
+0055.518 (0) Googledrive chunked upload: 90.3 % uploaded (45088768)
+0055.860 (0) Googledrive chunked upload: 92.4 % uploaded (46137344)
+0056.084 (0) Googledrive chunked upload: 94.5 % uploaded (47185920)
+0056.311 (0) Googledrive chunked upload: 96.6 % uploaded (48234496)
+0057.525 (0) Googledrive chunked upload: 98.7 % uploaded (49283072)
+0058.554 (0) Googledrive chunked upload: 100 % uploaded (49283072)
+0058.672 (0) OK: Archive backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip uploaded to Google Drive in 18.4 seconds
+0058.695 (0) Recording as successfully uploaded: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip (346d2276b6bb646fe16734679e947e0f)
+0058.766 (0) Deleting local file: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-plugins.zip: OK
+0059.082 (0) Google Drive quota usage: used=672.7 MB, total=15360 MB, available=14687.3 MB
+0059.091 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-themes.zip: Attempting to upload to Google Drive (into folder id: 0Bx_MNTzna_XCVTBLTHJPMGtqOTg)
+0059.537 (0) Googledrive chunked upload: 53.3 % uploaded (1048576)
+0060.448 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0060.462 (0) OK: Archive backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-themes.zip uploaded to Google Drive in 1.36 seconds
+0060.470 (0) Recording as successfully uploaded: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-themes.zip (c79eae0229cff47b21e03108d4694d5a)
+0060.498 (0) Deleting local file: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-themes.zip: OK
+0060.754 (0) Google Drive quota usage: used=674.6 MB, total=15360 MB, available=14685.4 MB
+0060.767 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip: Attempting to upload to Google Drive (into folder id: 0Bx_MNTzna_XCVTBLTHJPMGtqOTg)
+0061.504 (0) Googledrive chunked upload: 2.9 % uploaded (1048576)
+0061.745 (0) Googledrive chunked upload: 5.8 % uploaded (2097152)
+0061.976 (0) Googledrive chunked upload: 8.7 % uploaded (3145728)
+0062.179 (0) Googledrive chunked upload: 11.6 % uploaded (4194304)
+0062.445 (0) Googledrive chunked upload: 14.5 % uploaded (5242880)
+0062.712 (0) Googledrive chunked upload: 17.4 % uploaded (6291456)
+0062.930 (0) Googledrive chunked upload: 20.3 % uploaded (7340032)
+0063.150 (0) Googledrive chunked upload: 23.2 % uploaded (8388608)
+0063.382 (0) Googledrive chunked upload: 26.1 % uploaded (9437184)
+0064.180 (0) Googledrive chunked upload: 29 % uploaded (10485760)
+0064.548 (0) Googledrive chunked upload: 31.9 % uploaded (11534336)
+0064.848 (0) Googledrive chunked upload: 34.8 % uploaded (12582912)
+0065.611 (0) Googledrive chunked upload: 37.7 % uploaded (13631488)
+0066.074 (0) Googledrive chunked upload: 40.6 % uploaded (14680064)
+0066.525 (0) Googledrive chunked upload: 43.5 % uploaded (15728640)
+0066.950 (0) Googledrive chunked upload: 46.3 % uploaded (16777216)
+0067.437 (0) Googledrive chunked upload: 49.2 % uploaded (17825792)
+0067.913 (0) Googledrive chunked upload: 52.1 % uploaded (18874368)
+0068.289 (0) Googledrive chunked upload: 55 % uploaded (19922944)
+0068.601 (0) Googledrive chunked upload: 57.9 % uploaded (20971520)
+0069.183 (0) Googledrive chunked upload: 60.8 % uploaded (22020096)
+0069.462 (0) Googledrive chunked upload: 63.7 % uploaded (23068672)
+0069.942 (0) Googledrive chunked upload: 66.6 % uploaded (24117248)
+0070.361 (0) Googledrive chunked upload: 69.5 % uploaded (25165824)
+0070.685 (0) Googledrive chunked upload: 72.4 % uploaded (26214400)
+0070.935 (0) Googledrive chunked upload: 75.3 % uploaded (27262976)
+0071.155 (0) Googledrive chunked upload: 78.2 % uploaded (28311552)
+0071.379 (0) Googledrive chunked upload: 81.1 % uploaded (29360128)
+0071.713 (0) Googledrive chunked upload: 84 % uploaded (30408704)
+0071.976 (0) Googledrive chunked upload: 86.9 % uploaded (31457280)
+0072.193 (0) Googledrive chunked upload: 89.8 % uploaded (32505856)
+0072.411 (0) Googledrive chunked upload: 92.7 % uploaded (33554432)
+0072.637 (0) Googledrive chunked upload: 95.6 % uploaded (34603008)
+0072.862 (0) Googledrive chunked upload: 98.5 % uploaded (35651584)
+0073.594 (0) Googledrive chunked upload: 100 % uploaded (35651584)
+0073.611 (0) OK: Archive backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip uploaded to Google Drive in 12.83 seconds
+0073.621 (0) Recording as successfully uploaded: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip (b3bd80eb55962b66031b6525e1a67c20)
+0073.649 (0) Deleting local file: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-uploads.zip: OK
+0073.960 (0) Google Drive quota usage: used=709.1 MB, total=15360 MB, available=14650.9 MB
+0073.990 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-others.zip: Attempting to upload to Google Drive (into folder id: 0Bx_MNTzna_XCVTBLTHJPMGtqOTg)
+0074.472 (0) Googledrive chunked upload: 13.2 % uploaded (1048576)
+0074.719 (0) Googledrive chunked upload: 26.5 % uploaded (2097152)
+0074.956 (0) Googledrive chunked upload: 39.7 % uploaded (3145728)
+0075.348 (0) Googledrive chunked upload: 52.9 % uploaded (4194304)
+0075.604 (0) Googledrive chunked upload: 66.1 % uploaded (5242880)
+0075.879 (0) Googledrive chunked upload: 79.4 % uploaded (6291456)
+0076.106 (0) Googledrive chunked upload: 92.6 % uploaded (7340032)
+0076.923 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0076.938 (0) OK: Archive backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-others.zip uploaded to Google Drive in 2.93 seconds
+0076.948 (0) Recording as successfully uploaded: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-others.zip (50867c450acb61e849972118a035327c)
+0076.967 (0) Deleting local file: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-others.zip: OK
+0077.236 (0) Google Drive quota usage: used=716.7 MB, total=15360 MB, available=14643.3 MB
+0077.248 (0) backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db.gz: Attempting to upload to Google Drive (into folder id: 0Bx_MNTzna_XCVTBLTHJPMGtqOTg)
+0077.763 (0) Googledrive chunked upload: 68.7 % uploaded (1048576)
+0078.755 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0078.802 (0) OK: Archive backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db.gz uploaded to Google Drive in 1.53 seconds
+0078.824 (0) Recording as successfully uploaded: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db.gz (3315d9e32813a91cfb8b4b3541868b83)
+0078.861 (0) Deleting local file: backup_2017-05-06-1847_NETDOCS_8e112ea4f6b5-db.gz: OK
+0078.963 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=6, retain_db=6
+0078.972 (0) Number of backup sets in history: 5; groups (db): 1
+0078.978 (0) Examining (for databases) backup set with group_id=0, nonce=8e112ea4f6b5, datestamp=1494089237 (May 06 2017 16:47:17)
+0078.986 (0) This backup set is the backup set just made, so will not be deleted.
+0078.991 (0) Examining (for databases) backup set with group_id=0, nonce=aa0d52a19342, datestamp=1493987581 (May 05 2017 12:33:01)
+0078.996 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.002 (0) Examining (for databases) backup set with group_id=0, nonce=4a72007db6ec, datestamp=1493854482 (May 03 2017 23:34:42)
+0079.008 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.013 (0) Examining (for databases) backup set with group_id=0, nonce=1a74b2bb96a7, datestamp=1493815290 (May 03 2017 12:41:30)
+0079.023 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.048 (0) Examining (for databases) backup set with group_id=0, nonce=95aaf27baa0c, datestamp=1493769454 (May 02 2017 23:57:34)
+0079.067 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.084 (0) Number of backup sets in history: 5; groups (files): 1
+0079.089 (0) Examining (for files) backup set with nonce=8e112ea4f6b5, datestamp=1494089237 (May 06 2017 16:47:17)
+0079.093 (0) This backup set is the backup set just made, so will not be deleted.
+0079.098 (0) This backup set is the backup set just made, so will not be deleted.
+0079.098 (0) This backup set is the backup set just made, so will not be deleted.
+0079.099 (0) This backup set is the backup set just made, so will not be deleted.
+0079.099 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.105 (0) Examining (for files) backup set with nonce=aa0d52a19342, datestamp=1493987581 (May 05 2017 12:33:01)
+0079.109 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.113 (0) Examining (for files) backup set with nonce=4a72007db6ec, datestamp=1493854482 (May 03 2017 23:34:42)
+0079.118 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.121 (0) Examining (for files) backup set with nonce=1a74b2bb96a7, datestamp=1493815290 (May 03 2017 12:41:30)
+0079.125 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.129 (0) Examining (for files) backup set with nonce=95aaf27baa0c, datestamp=1493769454 (May 02 2017 23:57:34)
+0079.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.138 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0079.152 (0) Resume backup (8e112ea4f6b5, 0): finish run
+0079.168 (0) Decremented the semaphore (fd) by 1
+0079.183 (0) Semaphore (fd) unlocked
+0079.200 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0079.268 (0) The backup apparently succeeded and is now complete
+0079.287 (0) No email will/can be sent - the user has not configured an email address.
+0079.308 (0) La sauvegarde a réussie. Elle est maintenant terminée.

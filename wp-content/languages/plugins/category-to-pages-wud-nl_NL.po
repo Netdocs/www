@@ -1,0 +1,335 @@
+# Translation of Plugins - Category to Pages WUD - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Category to Pages WUD - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-15 18:09:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Category to Pages WUD - Stable (latest release)\n"
+
+#: category-to-pages-wud.php:231
+msgid "Show the categories and tags, just BELOW the Page Title or on TOP of your Page Content.<br><br>Depending the Theme you are using, you can choose here where to place the Categories and Tags."
+msgstr ""
+"Toon de categorieën en labels net ONDER de Pagina Titel of BOVENAAN uw Pagina Inhoud\n"
+"<br><br>Naargelang het Theme je gebruikt, kan je hier kiezen waar u de categorieën en lables plaatst."
+
+#: category-to-pages-wud.php:226
+msgid "Place it below the Title or on top of the Content"
+msgstr "Plaats het onder de Titel of bovenaan de Inhoud"
+
+#: category-to-pages-wud.php:278
+msgid "Show only Parent Categories "
+msgstr "Toon enkel Hoofd Categorieën"
+
+#: category-to-pages-wud.php:279
+msgid "If activated:<br>It shows the parent categories pages only.<br><br>If not activated:<br>It shows the parent and child (sub) categories pages together.<br>"
+msgstr "Indien geactiveerd:<br>Het toont enkel pagina's van de hoofd categorieën.<br><br>Indien niet geactiveerd:<br>Het toont pagina's van  hoofd en sub categorieën tezamen.<br>"
+
+#. Tags of the plugin/theme
+msgid "category pages, categories page, categories pages, category to page, page category, page categories, pages category, pages categories, tags page, tag pages, category, categories, tag, tags, page, pages, tag to page, add category, add tag"
+msgstr "categorie pagina's, categorieën pagina, categorieën pagina's, categorie voor pagina, pagina categorie, pagina categorieën , pagina's categorie, pagina's categorieën, labels pagina, label pagina's, categorie, categorieën, label, labels, pagina, pagina's, label voor pagina"
+
+#. Author of the plugin/theme
+msgid "Danny WUD"
+msgstr "Danny WUD"
+
+#. Description of the plugin/theme
+msgid "Unique Page Categories and Page Tags."
+msgstr "Unieke Pagina Categorieën en Pagina Labels"
+
+#. #-#-#-#-#  tmp-category-to-pages-wud.pot (Category to Pages WUD 2.1.3) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-category-to-pages-wud.pot (Category to Pages WUD 2.1.3) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://wud-plugins.com"
+msgstr "https://wud-plugins.com"
+
+#. Plugin Name of the plugin/theme
+msgid "Category to Pages WUD"
+msgstr "Category to Pages WUD"
+
+#: category-to-pages-wud.php:650
+msgid "Page Tagg Title"
+msgstr "Pagina Label Titel"
+
+#: category-to-pages-wud.php:647
+msgid "Show Page Tags"
+msgstr "Toon Pagina Labels"
+
+#: category-to-pages-wud.php:636 category-to-pages-wud.php:653
+msgid "CCS Font Title"
+msgstr "CSS Font Titel"
+
+#: category-to-pages-wud.php:633
+msgid "Page Category Title"
+msgstr "Pagina Categorie Titel"
+
+#: category-to-pages-wud.php:630
+msgid "Show Page Categories"
+msgstr "Toon Pagina Categorieën"
+
+#: category-to-pages-wud.php:625
+msgid "Widget Title"
+msgstr "Widget Titel"
+
+#: category-to-pages-wud.php:459
+msgid "Page Tags"
+msgstr "Pagina Labels"
+
+#: category-to-pages-wud.php:458
+msgid "Choose from the most used Page Tags"
+msgstr "Kies uit de meest gebruikte Pagina Labels"
+
+#: category-to-pages-wud.php:457
+msgid "Add or remove Page Tags"
+msgstr "Voeg toe of verwijder Pagina Labels"
+
+#: category-to-pages-wud.php:456
+msgid "Separate Page Tags with commas"
+msgstr "Scheid Pagina Labels met komma's"
+
+#: category-to-pages-wud.php:455
+msgid "New Page Tag Name"
+msgstr "Nieuw Pagina Label Omschrijving"
+
+#: category-to-pages-wud.php:454
+msgid "Add New Page Tag"
+msgstr "Voeg Nieuwe Pagina Label toe"
+
+#: category-to-pages-wud.php:453
+msgid "Update Page Tag"
+msgstr "Pagina Label bijwerken"
+
+#: category-to-pages-wud.php:449
+msgid "All Page Tags"
+msgstr "Alle Pagina Labels"
+
+#: category-to-pages-wud.php:448
+msgid "Popular Page Tags"
+msgstr "Populaire Pagina Labels"
+
+#: category-to-pages-wud.php:447
+msgid "Search Page Tags"
+msgstr "Zoek Pagina Labels"
+
+#: category-to-pages-wud.php:446
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr "Label"
+
+#: category-to-pages-wud.php:445
+msgctxt "taxonomy general name"
+msgid "Page Tags"
+msgstr "Pagina Label"
+
+#: category-to-pages-wud.php:423
+msgid "Page Categories"
+msgstr "Pagina Categorieën"
+
+#: category-to-pages-wud.php:422
+msgid "New Page Category Name"
+msgstr "Nieuwe Pagina Categorie Omschrijving"
+
+#: category-to-pages-wud.php:421
+msgid "Add New Page Category"
+msgstr "Voeg een Nieuwe Pagina Categorie toe"
+
+#: category-to-pages-wud.php:420
+msgid "Update Page Category"
+msgstr "Pagina Categorie bijwerken."
+
+#: category-to-pages-wud.php:419
+msgid "Edit Page Category"
+msgstr "Bewerk Pagina Categorie"
+
+#: category-to-pages-wud.php:452
+msgid "Edit Page Tag"
+msgstr "Bewerk Pagina Label"
+
+#: category-to-pages-wud.php:418
+msgid "Parent Page Category:"
+msgstr "Bovenliggende pagina Categorie:"
+
+#: category-to-pages-wud.php:417
+msgid "Parent Page Category"
+msgstr "Bovenliggende pagina Categorie"
+
+#: category-to-pages-wud.php:416
+msgid "All Page Categories"
+msgstr "Alle Pagina Categorieën"
+
+#: category-to-pages-wud.php:415
+msgid "Search Page Categories"
+msgstr "Zoek Pagina Categorieën"
+
+#: category-to-pages-wud.php:414
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Categorie"
+
+#: category-to-pages-wud.php:413
+msgctxt "taxonomy general name"
+msgid "Page Categories"
+msgstr "Pagina Categorieën"
+
+#: category-to-pages-wud.php:109
+msgid "Settings"
+msgstr "Instellingen"
+
+#: category-to-pages-wud.php:291
+msgid "Contact"
+msgstr "Contact"
+
+#: category-to-pages-wud.php:290
+msgid "Get FREE Support"
+msgstr "Verkrijg GRATIS Support"
+
+#: category-to-pages-wud.php:290
+msgid "Visit our website"
+msgstr "Bezoek onze website"
+
+#: category-to-pages-wud.php:288
+msgid "Save Changes"
+msgstr "Bewaar veranderingen"
+
+#: category-to-pages-wud.php:276
+msgid "Quantity pages to display (max.: 50)"
+msgstr "Aantal pagina's te tonen (max.: 50)"
+
+#: category-to-pages-wud.php:274
+msgid "If activated:<br>A button will appear to show the pages descriptions with URL's.<br>"
+msgstr "Indien geactiveerd:<br>Er wordt een knop getoond om pagina omschrijvingen met URL's te tonen.<br>"
+
+#: category-to-pages-wud.php:273
+msgid "Show a button to display the pages "
+msgstr "Toon een knop om de pagina's weer te geven."
+
+#: category-to-pages-wud.php:271
+msgid "If activated:<br>A list from maximum 5 page descriptions with URL's are displayed per Category and/or Tag.<br><br>If not activated:<br>No pages descriptions with URL's are displayed."
+msgstr "Indien geactiveerd:<br>Een lijst van maximum 5 pagina omschrijvingen met URL's worden getoond per category en/of label.<br><br>Indien niet geactiveerd:<br>Geen pagina omschrijvingen met URL's worden getoond."
+
+#: category-to-pages-wud.php:270
+msgid "Show Category and Tag pages "
+msgstr "Toon de Categorie en Label pagina's"
+
+#: category-to-pages-wud.php:269
+msgid " Category to Pages"
+msgstr "Categorie voor Pagina's"
+
+#: category-to-pages-wud.php:269
+msgid "Widget"
+msgstr "Widget"
+
+#: category-to-pages-wud.php:264
+msgid "tag"
+msgstr "label"
+
+#: category-to-pages-wud.php:264
+msgid "category</b>"
+msgstr "categorie</b>"
+
+#: category-to-pages-wud.php:261
+msgid "tags"
+msgstr "labels"
+
+#: category-to-pages-wud.php:261 category-to-pages-wud.php:264
+msgid "Tag = http://your_url/"
+msgstr "Label = http://your_url/"
+
+#: category-to-pages-wud.php:261
+msgid "categories</b>"
+msgstr "categorieën</b>"
+
+#: category-to-pages-wud.php:261 category-to-pages-wud.php:264
+msgid "Category = http://your_url/"
+msgstr "Categorie = http://your_url/"
+
+#: category-to-pages-wud.php:259
+msgid "Front-end result (URL)"
+msgstr "Front-end resultaat (URL)"
+
+#: category-to-pages-wud.php:258
+msgid "If activated:<br>Categories and tags are unique for pages.<br><br>If not activated:<br>Page categories and tags are the same as they are for posts."
+msgstr "Indien geactiveerd:<br>Categorieën en Labels zijn uniek voor pagina's.<br><br>Indien niet geactiveerd:<br>Pagina Categorieën zijn dezelfde zoals ze zijn voor berichten."
+
+#: category-to-pages-wud.php:257
+msgid "Activate "
+msgstr "Activeer"
+
+#: category-to-pages-wud.php:256
+msgid " page categories/tags"
+msgstr "pagina categorieën/labels"
+
+#: category-to-pages-wud.php:256
+msgid "Unique"
+msgstr "Uniek"
+
+#: category-to-pages-wud.php:256 category-to-pages-wud.php:269
+msgid "<b>"
+msgstr "<b>"
+
+#: category-to-pages-wud.php:251
+msgid "The Category/Tag Title will be displayed in this Font Size & Family."
+msgstr "De Categorie/Label Titel zal getoond worden in deze Font Grootte & Familie."
+
+#: category-to-pages-wud.php:236
+msgid "Font Family"
+msgstr "Font Familie"
+
+#: category-to-pages-wud.php:234
+msgid "Font size"
+msgstr "Font grootte"
+
+#: category-to-pages-wud.php:221
+msgid "Show"
+msgstr "Toon"
+
+#: category-to-pages-wud.php:220
+msgid "Show the Category/Tag Title on the Page."
+msgstr "Toon de Categorie/Label Titel op de Pagina."
+
+#: category-to-pages-wud.php:215
+msgid "If activated:<br>Tags are available for posts and pages.<br><br>If not activated:<br>Tags are only available for posts (WordPress standard)."
+msgstr "Indien geactiveerd:<br>Labels zijn beschikbaar voor berichten en pagina's .<br><br>Indien niet geactiveerd:<br> >Labels zijn enkel beschikbaar voor berichten (WordPress standaard)."
+
+#: category-to-pages-wud.php:214
+msgid "Add Tag to pages"
+msgstr "Voeg Labels aan Pagina's toe."
+
+#: category-to-pages-wud.php:208
+msgid "If activated:<br>Categories are available for posts and pages.<br><br>If not activated:<br>Categories are only available for posts (WordPress standard)."
+msgstr "Indien geactiveerd:<br>Categorieën zijn beschikbaar voor berichten en pagina's .<br><br>Indien niet geactiveerd:<br> >Categorieën zijn enkel beschikbaar voor berichten (WordPress standaard)."
+
+#: category-to-pages-wud.php:207
+msgid "Add Categories to pages"
+msgstr "Voeg Categorieën aan Pagina's toe."
+
+#: category-to-pages-wud.php:167
+msgid "Busy to save the settings ... one moment please."
+msgstr "Bezig met het bewaren van de instellingen ... een ogenblik a.u.b."
+
+#: category-to-pages-wud.php:126
+msgid "MORE WUD FREE PLUGINS"
+msgstr "MEER WUD GRATIS PLUGINS"
+
+#: category-to-pages-wud.php:126
+msgid "CLICK HERE TO DISCOVER"
+msgstr "KLIK HIER OM ZE TE ONTDEKKEN"
+
+#: category-to-pages-wud.php:126
+msgid "100% FREE WUD PLUGINS"
+msgstr "100% GRATIS WUD PLUGINS"
+
+#: category-to-pages-wud.php:125
+msgid "100% FREE PRO SUPPORT"
+msgstr "100% GRATIS PRO SUPPORT"
+
+#: category-to-pages-wud.php:123
+msgid "Adds easily Post Categories to Pages!"
+msgstr "Voegt eenvoudig Categorieën aan pagina's toe!"
